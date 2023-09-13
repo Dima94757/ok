@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial;
+}
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+section {
+    padding: 50px;
+}
+footer {
+    padding: 50px;
+}
+
+img {
+    width: 100%;
+}
