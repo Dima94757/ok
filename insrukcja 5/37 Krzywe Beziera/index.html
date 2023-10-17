@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  canvas {
+    border: 1px dashed black;
+  }
+</style>
+<script>
+  window.onload = function() {
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d")
+    context.lineWidth = 6;
+    context.strokeStyle = "#333";
+    cbeginPath();
+    ctx.moveTo(100, 250);
+    ctx.bezierCurveTo(150, 100, 350, 100, 400, 250);
+    ctx.stroke();
+  }
+</script>
+
+
+
+
+<body>
+<canvas id="drawingCanvas" width="1000" height="500"></canvas>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  canvas {
+    border: 1px dashed black;
+  }
+</style>
+<script>
+  window.onload = function() {
+    var canvas = document.getElementById("drawingCanvas");
+    var context = canvas.getContext("2d");
+    // Umieść kod odpowiedzialny za rysowanie w tym miejscu.
+    context.lineWidth = 15;
+    context.strokeStyle = "rgb(37,234,30)";
+    context.moveTo(0,300);
+    context.lineTo(500,300);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(62.5,300);
+    context.lineTo(62.5,120);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(62.5,120);
+    context.lineTo(437.5,120);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(437.5,120);
+    context.lineTo(437.5,300);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(437.5,120);
+    context.lineTo(250,50);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(250,50);
+    context.lineTo(62.5,120);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(62.5,300);
+    context.lineTo(437.5,300);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(250,250);
+    context.lineTo(250,170);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(200,250);
+    context.lineTo(300,250);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(200,170);
+    context.lineTo(300,170);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(200,250);
+    context.lineTo(200,170);
+    context.lineCap = "butt";
+    context.stroke();
+    context.beginPath();
+    context.strokeStyle = "rgb(60,63,65)";
+    context.moveTo(300,250);
+    context.lineTo(300,170);
+    context.lineCap = "butt";
+    context.stroke();
+  };
+</script>
+<body>
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

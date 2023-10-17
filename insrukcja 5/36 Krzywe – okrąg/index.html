@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    canvas {
+        border: 1px dashed black;
+    }
+</style>
+<script>
+    window.onload = function ()
+    {
+        var canvas = document.getElementById("drawingCanvas");
+        var context = canvas.getContext("2d");
+        var centerX = 150;
+        var centerY = 300;
+        var radius = 100;
+        var startingAngle = 0;
+        var endingAngle = 2 * Math.PI;
+        context.arc(centerX, centerY, radius, startingAngle, endingAngle);
+        context.stroke();
+    }
+</script>
+<body>
+<canvas id="drawingCanvas" width="1000" height="500"></canvas>
+</body>
+</html>
