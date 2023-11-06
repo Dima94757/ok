@@ -9,11 +9,20 @@
 <div id="baner-lewy">
     <h1>Stacja paliw</h1>
 </div>
-<div id="baner-ptawy">
+<div id="baner-prawy">
     <a href="stacja.html"><img src="home.png" alt=""></a>
     <a href="obliczenia.html"><img src="znak.png" alt=""></a>
 </div>
-<div id="blok-glowny"></div>
+<div id="blok-glowny">
+    <h3>Oblicz koszt paliwa</h3>
+    <tabel for="rodzaj">Rodzaj paliwa (1-benzyna, 2-olej napędowy)</tabel>
+    <input type="number" id="rodzaj">
+    <tabel for="ile">Ile litrów</tabel>
+    <input type="number" id="ile">
+<button>OBLICZ</button>
+    <br>
+    <p id="wynik">...</p>
+</div>
 <div id="blok-lewy">
     <a href="kwerendy.txt">Pobierz kwerendy</a>
 </div>
@@ -23,5 +32,6 @@
 <div id="stopka">
     <p>Stronę opracował: Dmytro Tiapkov 1p</p>
 </div>
+<script src="main.js"></script>
 </body>
 </html>
